@@ -184,7 +184,7 @@ func CompileAttachmentLinks(markdown []byte, attaches []Attachment) []byte {
 	})
 
 	for _, name := range names {
-		from := `attachment://` + name
+		from := name
 		to := links[name]
 
 		log.Debugf(nil, "replacing: %q -> %q", from, to)
