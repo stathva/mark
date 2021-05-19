@@ -4,7 +4,7 @@ Mark — tool for syncing your markdown documentation with Atlassian Confluence
 pages.
 
 This is very usable if you store documentation to your orthodox software in git
-repository and don't want to do a handjob with updating Confluence page using
+repository and don't want to do manual work with updating Confluence page using
 fucking tinymce wysiwyg enterprise core editor.
 
 You can store a user credentials in the configuration file, which should be
